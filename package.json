@@ -1,0 +1,19 @@
+{
+  "name": "node-docker-nodemon-debug",
+  "version": "1.0.0",
+  "description": "How to debug a Node.js application on VSCode without having it installed",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "debug": "node_modules/.bin/nodemon --inspect-brk=0.0.0.0:9229 index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theodorosidmar/node-docker-nodemon-debug.git"
+  },
+  "author": "Sidmar Theodoro <theodorosidmar@gmail.com>",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.14.12"
+  }
+}
