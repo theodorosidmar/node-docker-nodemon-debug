@@ -1,4 +1,4 @@
-> Debug your Node.js application on Visual Studio Code without having it installed on your machine.
+> How to debug your Node.js application on Visual Studio Code without having it installed on your machine.
 
 So, I wanted to use Node.js on my work computer but I didn't want to install it and its stuffs (npm, yarn, nvm etc).
 
